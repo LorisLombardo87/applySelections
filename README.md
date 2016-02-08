@@ -17,4 +17,4 @@ the only element visible to the user is a button with a home icon, cliking on it
 
 when deployed on a local installation of sense the user gets always the value Persona\Me.
 
-it is work in progress so i'm waiting for your comments, bug traking or enhancement requests
+it is a work in progress so i'm waiting for your comments, bug tracking or enhancement requests
