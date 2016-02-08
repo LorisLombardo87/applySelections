@@ -1,0 +1,7 @@
+/* Styles for applySelections */
+
+/* Recommended pattern for styling your objects */
+.qv-object-applyselections .hello-world {
+  color:#333;
+  font-weight:bold;
+}

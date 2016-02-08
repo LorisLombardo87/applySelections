@@ -1,0 +1,9 @@
+{
+	"name" : "applySelections",
+	"description" : "Automatically apply bookmark based on user",
+	"icon" : "",
+	"type" : "visualization",
+	"version": "0.0.1",
+	"preview" : "applyselections.png",
+	"author": "Loris Lombardo"
+}
