@@ -6,7 +6,7 @@ after dropping the extension on the sheet you have to set up at least one rule i
 you can define up to 10 rules.
 
 a rule is defined by:
-- the users that triggers the rule. You can define a list of users separed by commas
+- the users that triggers the rule. Here you have to insert the User ID as you find it in qmc/users. You can define a list of users separed by commas
 - the bookmark you want to apply. the bookmark must be predefined in sense application.
 - a check box that enable the rule.
 
