@@ -1,21 +1,28 @@
 # applySelections
-Automatically apply bookmark based on the user that open the sheet.
-this extension can be useful when you want to automatically apply a particular bookmark when the user open the sheet.
+Automatically apply bookmark based on the user that opens the sheet.
+This extension can be useful if you want something that emulates the "on sheet opening" actions of qlikview.
 
-after dropping the extension on the sheet you have to set up at least one rule in the propresties panel.
-you can define up to 10 rules.
+The main concept underlying this extension is the concept of rule. A rule is an action that qlik sense has to take when a user opens the sheet. The rule is composed by two parts: the trigger and the action. 
+You can define which user triggers the rule on sheet opening, and which bookmark to apply.
 
-a rule is defined by:
-- the users that triggers the rule. Here you have to insert the User ID as you find it in qmc/users. You can define a list of users separed by commas
+You can define up to 10 rules.
+After dropping the extension on the sheet, you have to set up at least one rule in the propresties panel.
+
+A rule is defined by:
+- the user that triggers the rule. Here you have to insert the User ID as you find it in qmc/users. You can define a list of comma separated user ids.
 - the bookmark you want to apply. the bookmark must be predefined in sense application.
-- a check box that enable the rule.
+- a check box that enables the rule.
 
-the first rule can be defined to all users.
+The first rule can be defined for all users.
 
-if more than a rule apply to the user, only the last rule enabled is applied.
+If more than a rule applies to the user, only the last enabled rule is applied.
 
-the only element visible to the user is a button with a home icon, cliking on it apply the associated bookmark.
+The only element visible to the user is a button. A click on it trigger the associated rule.
 
-when deployed on a local installation of sense the user gets always the value Personal\Me.
+When deployed on a local sense installation, the user always gets the value "Personal\Me".
 
-it is a work in progress so i'm waiting for your comments, bug tracking or enhancement requests
+This project is work in progress so I'm waiting for your comments, bug tracking or enhancement requests
+
+#To Do
+- add possibility to insert a text button, not only the icon button.
+- add more actions, not only apply bookmark, eg. set a variable.
