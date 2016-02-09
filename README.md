@@ -18,6 +18,7 @@ A rule is defined by:
 The first rule can be defined for all users.
 
 <img  src = "demo.gif" />
+
 In the example: if the one of the two users listed opens the sheet the bookmark EMEA Countries is applied to the qlik sense document.
 
 # Notes
