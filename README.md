@@ -18,8 +18,11 @@ A rule is defined by:
 The first rule can be defined for all users.
 
 <img  src = "demo.gif" />
+In the example: if the one of the two users listed opens the sheet the bookmark EMEA Countries is applied to the qlik sense document.
 
-If more than a rule applies to the user, only the last enabled rule is applied.
+# Notes
+
+If more than a rule applies to the logged user, only the last enabled rule is applied.
 
 The only element visible to the user is a button. A click on it trigger the associated rule.
 
@@ -27,6 +30,6 @@ When deployed on a local sense installation, the user always gets the value "Per
 
 This project is work in progress so I'm waiting for your comments, bug tracking or enhancement requests
 
-#To Do
+# To Do
 - add possibility to insert a text button, not only the icon button.
 - add more actions, not only apply bookmark, eg. set a variable.
