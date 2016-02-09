@@ -8,12 +8,16 @@ You can define which user triggers the rule on sheet opening, and which bookmark
 You can define up to 10 rules.
 After dropping the extension on the sheet, you have to set up at least one rule in the propresties panel.
 
+# Rule Definition
+
 A rule is defined by:
 - the user that triggers the rule. Here you have to insert the User ID as you find it in qmc/users. You can define a list of comma separated user ids.
 - the bookmark you want to apply. the bookmark must be predefined in sense application.
 - a check box that enables the rule.
 
 The first rule can be defined for all users.
+
+<img  src = "demo.gif" />
 
 If more than a rule applies to the user, only the last enabled rule is applied.
 
